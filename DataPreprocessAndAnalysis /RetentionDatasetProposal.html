@@ -7609,13 +7609,13 @@ Warning message:
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>The <strong>Employee Retention data set</strong> "<a href="https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset?resource=download">https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset?resource=download</a>" contains information about employees in various cities.</p>
-<p>Here's a quick summary of the features of this data set:</p>
+<p>Here's a quick summary of this data set:</p>
 <p><strong>Summary:</strong></p>
 <ul>
 <li>Number of observations: 4654</li>
 <li>Number of features</li>
 </ul>
-<p><strong>Columns:</strong></p>
+<p><strong>Features:</strong></p>
 <ul>
 <li><code>education</code>: the degree which each employee obtain.</li>
 <li><code>JoiningYear</code>: year at which the employee join the company.</li>
@@ -7628,7 +7628,7 @@ Warning message:
 <li><code>LeaveOrNot</code>: whether the employee left the company or not.</li>
 </ul>
 <p><strong>Background:</strong></p>
-<p>The data have been collected from company's HR department which provide valuable insights into the workforce while maintaining employees privacy rights.</p>
+<p>The data have been collected from company's HR department in 2018 which provide valuable insights into the workforce while maintaining employees privacy rights.</p>
 </div>
 </div>
 </div>
@@ -7650,18 +7650,7 @@ Warning message:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The goal is to predict the likelihood of an employee leaving the company based on various factors using statisticall modelling for both prediction and inference to understand which factors are most influential in this decision. We beg the question:</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=48add9dc-ed46-429d-9686-bc7527a027cd">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="What-factors-are-%22associated%22-with-employee's-retention?"><center>What factors are "associated" with employee's retention?</center><a class="anchor-link" href="#What-factors-are-%22associated%22-with-employee's-retention?">¶</a></h3>
+<p>The goal is to predict the likelihood of an employee leaving the company based on various factors using statisticall modelling for prediction to understand which factors are most influential in this decision.</p>
 </div>
 </div>
 </div>
@@ -7672,7 +7661,18 @@ Warning message:
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>There are many features that can be used to predict <code>LeaveOrNot</code>. However, some covariates could be heavily correlated such as <code>PaymentTier</code> and <code>ExperienceIncurrentDomain</code>. We will try to address that by visuallizing the relationships between our variables. Glacing at data frame, some good predictors candidates could be: <code>education</code>, <code>PaymentTier</code>,<code>Age</code>, and <code>EverBenched</code>.</p>
+<p>There are many features that can be used to predict <code>LeaveOrNot</code>. However, some covariates could be heavily correlated such as <code>PaymentTier</code> and <code>ExperienceIncurrentDomain</code>. We will try to address that by visuallizing the relationships between our variables. Glacing at data frame, some good predictors candidates could be: <code>education</code>, <code>PaymentTier</code>,<code>Age</code>, and <code>EverBenched</code>.  We beg the question:</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=48add9dc-ed46-429d-9686-bc7527a027cd">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="How-does-education,-payment-tier,-age,-and-benched-status-affects-employee's-retention?"><center>How does education, payment tier, age, and benched status affects employee's retention?</center><a class="anchor-link" href="#How-does-education,-payment-tier,-age,-and-benched-status-affects-employee's-retention?">¶</a></h3>
 </div>
 </div>
 </div>
